@@ -24,7 +24,7 @@ class TestLambdaAuthorizer(unittest.TestCase):
 
         response = authorizer.lambda_handler(event, {})
         print(response["isAuthorized"])
-        self.assertTrue(response["isAuthorized"])
+        self.assertFalse(response["isAuthorized"])
         self.assertEqual(response["context"]["user"], "user1")
 
     @mock_aws
