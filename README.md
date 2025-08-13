@@ -33,7 +33,7 @@ This project is a serverless REST API for uploading, listing, viewing, and delet
 ├── terraform/
 │   ├── main.tf
 │   ├── variables.tf
-│   └── outputs.tf
+│ 
 ├── README.md
 └── requirements.txt
 ```
